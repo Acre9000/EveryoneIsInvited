@@ -33,6 +33,10 @@ Material:
   m_SavedProperties:
     serializedVersion: 3
     m_TexEnvs:
+    - _BasicTexture:
+        m_Texture: {fileID: 0}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     - _SampleTexture2D_a1fb9f2c301844a2b246a0cbe4a6c686_Texture_1:
         m_Texture: {fileID: 2800000, guid: 6dd6043d8f15e6741a4b38710ad44004, type: 3}
         m_Scale: {x: 1, y: 1}
@@ -51,7 +55,16 @@ Material:
         m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
+    - _FresnelPower: 5
+    - _OutlineThickness: 1
     - _QueueControl: 0
     - _QueueOffset: 0
-    m_Colors: []
+    - _RimBringhtness: 1
+    - _Smoothness: 0
+    - _Toon_Ramp_Offset: 0.55
+    - _Toon_Ramp_Smoothness: 0
+    m_Colors:
+    - _Base_Color: {r: 0.43038982, g: 0.246529, b: 0.4716981, a: 0}
+    - _TextureTint: {r: 0.15886742, g: 0.07725168, b: 0.18867922, a: 0}
+    - _Toon_Ramp_Tinting: {r: 0.5112767, g: 0.40790316, b: 0.6415094, a: 0}
   m_BuildTextureStacks: []
